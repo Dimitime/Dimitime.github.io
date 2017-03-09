@@ -33,7 +33,7 @@
 	left: 20px;
 	font-weight: bold;
 	font-style: normal;
-	font-family: "Source Sans Pro";
+	font-family: "Lucida Sans Unicode";
 	text-align: left;
 	color: #FFFFFF;
 	letter-spacing: 2px;
@@ -44,7 +44,7 @@
 	left: 20px;
 	font-weight: bold;
 	font-style: normal;
-	font-family: "Source Sans Pro";
+	font-family: "Lucida Sans Unicode";
 	text-align: left;
 	color: #FFFFFF;
 	letter-spacing: 2px;	
@@ -54,7 +54,7 @@
 	background-color: #000000;
 	width: 100%;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: "Lucida Sans Unicode";
 	color: #343434;
 	padding-bottom: 15px;
 }
@@ -98,7 +98,7 @@
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
-	font-family: "Source Sans Pro";
+	font-family: "Lucida Sans Unicode";
 }
 
 body {
