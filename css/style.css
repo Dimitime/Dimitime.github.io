@@ -186,7 +186,10 @@ section {
 	padding-right: 0;
 	padding-left: 1.25rem;
 	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
 	border-radius: var(--radius) 0 0 var(--radius);
+	vertical-align: middle;
+	text-align: center;
 }
 
 .container .body article table > tbody > tr > td:last-child {
@@ -200,6 +203,7 @@ section {
 	height: auto;
 	border-radius: 8px;
 	display: block;
+	margin: 0 auto;
 	border: 1px solid var(--border);
 	background: var(--bg);
 }
