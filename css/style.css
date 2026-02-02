@@ -44,33 +44,45 @@ body {
 	}
 }
 
-/* ----- Header: centered hero strip ----- */
+/* ----- Header: photo left, name/email right ----- */
 .header {
 	width: 100%;
 	background: linear-gradient(135deg, var(--accent-dim) 0%, #3b0764 100%);
-	padding: 2.5rem 2rem;
-	text-align: center;
+	padding: 1.25rem 2rem;
 	color: #fff;
 	border-bottom: 2px solid var(--accent);
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
 }
 
 .header img.my_picture {
-	width: 140px;
-	height: 140px;
+	width: 100px;
+	height: 100px;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 4px solid var(--accent);
-	margin: 0 auto 1rem;
-	display: block;
-	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+	border: 3px solid var(--accent);
+	flex-shrink: 0;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.header-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0;
 }
 
 .header .title {
-	margin: 0 0 0.25rem;
+	margin: 0 0 0.2rem;
 	font-family: "Fraunces", Georgia, serif;
 	font-weight: 700;
-	font-size: 2.25rem;
+	font-size: 1.75rem;
 	letter-spacing: -0.02em;
+}
+
+.header .contact {
+	margin: 0;
 }
 
 .contact {
@@ -285,16 +297,17 @@ section {
 /* ----- Responsive: stack paper rows on small screens ----- */
 @media (max-width: 640px) {
 	.header {
-		padding: 1.75rem 1rem;
+		padding: 1rem;
+		gap: 1rem;
 	}
 
 	.header img.my_picture {
-		width: 110px;
-		height: 110px;
+		width: 80px;
+		height: 80px;
 	}
 
 	.header .title {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 
 	.container .body article table > tbody > tr {
