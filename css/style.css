@@ -93,6 +93,7 @@ body {
 
 .header-linkedin {
 	display: inline-block;
+	flex-shrink: 0;
 	opacity: 0.9;
 	transition: opacity 0.2s ease;
 }
@@ -103,8 +104,12 @@ body {
 
 .header-linkedin img {
 	display: block;
-	width: 24px;
-	height: 24px;
+	max-width: 24px;
+	max-height: 24px;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+	vertical-align: middle;
 }
 
 .contact {
